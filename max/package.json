@@ -1,0 +1,17 @@
+{
+  "name": "max",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node lib/index.js"
+  },
+  "author": "max",
+  "license": "ISC",
+  "bin": {
+    "max": "lib/index.js"
+  },
+  "dependencies": {
+    "ejs": "^2.6.2"
+  }
+}
