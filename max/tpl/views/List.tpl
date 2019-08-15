@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { observer, inject } from 'mobx-react';
 import { Spin, Table } from 'antd';
-import styles from '<%= name %>.less';
+import styles from './<%= name %>.less';
 
 @inject('<%= storeName %>')
 @observer
